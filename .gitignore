@@ -1,0 +1,186 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Backend (Node.js/Express)
+.env
+.env.local
+.env.*.local
+dist/
+build/
+uploads/
+temp/
+tmp/
+logs/
+*.log
+
+# Backend (Python/Django/Flask - if applicable)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+migrations/
+db.sqlite3
+
+# Frontend (React/Vue/Angular)
+# React
+/build
+/static
+/*.js.map
+/*.d.ts
+
+# Vue
+/dist/
+/dist-ssr/
+*.local
+
+# Angular
+/dist/
+/tmp
+/out-tsc
+/*.js.map
+*.css.map
+
+# General frontend artifacts
+.eslintcache
+*.tsbuildinfo
+.stencil/
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+jest_html_reporters/
+jest_reporters/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment and configuration files
+.env*.local
+.env*.production
+.env*.development
+.vercel
+.now
+.cache/
+.parcel-cache/
+
+# Docker
+.dockerignore
+Dockerfile.dev
+docker-compose.override.yml
+
+# Terraform (if using for infrastructure)
+*.tfstate
+*.tfstate.*
+.terraform/
+override.tf
+override.tf.json
+*.tfvars
+
+# Logs and databases
+*.sqlite
+*.db
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Uploads and temporary storage
+public/uploads/
+uploads/
+storage/
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Secret files (custom security)
+.secrets/
+secrets/
+key.pem
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+
+# NPM/Yarn optimizations
+.npm/
+.eslintcache
+.stylelintcache
+.prettiercache
+
+# Turborepo
+.turbo/
+
+# Lerna
+lerna-debug.log
+
+# Nuxt.js
+.nuxt/
+.nuxt-*
+.swc/
+server/.nuxt/
+
+# Next.js
+.next/
+out/
+build/
+*.next
+
+# Gatsby
+.cache/
+public/
+.storybook-out/
+
+# Svelte
+.svelte-kit/
+
+# Mobile (React Native)
+.idea/
+.gradle/
+local.properties
+*.iml
+*.hprof
+android/.idea/
+android/app/build/
+ios/Pods/
+ios/build/
